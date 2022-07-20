@@ -1,0 +1,88 @@
+html ,body {
+height: 100%;
+}
+body{
+   color: black;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5a2395+0,7130d2+50,6826c4+51,a782e4+100&1+0,1+19,1+42,1+59,0.89+100,1+100 */
+background: -moz-linear-gradient(-45deg,  rgba(90,35,149,1) 0%, rgba(99,40,172,1) 19%, rgba(109,46,200,1) 42%, rgba(113,48,210,1) 50%, rgba(104,38,196,1) 51%, rgba(114,53,201,1) 59%, rgba(167,130,228,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(90,35,149,1) 0%,rgba(99,40,172,1) 19%,rgba(109,46,200,1) 42%,rgba(113,48,210,1) 50%,rgba(104,38,196,1) 51%,rgba(114,53,201,1) 59%,rgba(167,130,228,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(90,35,149,1) 0%,rgba(99,40,172,1) 19%,rgba(109,46,200,1) 42%,rgba(113,48,210,1) 50%,rgba(104,38,196,1) 51%,rgba(114,53,201,1) 59%,rgba(167,130,228,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a2395', endColorstr='#a782e4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ 
+}
+
+div{
+
+}
+.calcuator {
+    background: rgb(79, 149, 235);
+    
+
+    width:300px;
+    padding: 15px  ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px rgb(90, 221, 241) ,
+                 4PX  6PX 25PX rgba(127, 127, 224, 0.75);
+    
+}
+.result {
+    width:90%;
+    margin:8px 0 20px 10px;
+    height:50px;
+    line-break: 50px;
+    text-align:right;
+    background-color: rgb(173, 200, 228);
+    font-size: 45px;
+    padding-right: 10px;
+    overflow: hidden;
+    font-family: 'Patua One', cursive; 
+    box-shadow: inset 1px 1px 8px rgba( 0,0,0,0.5)  ,
+                inset 1px 1px 8px rgba(203, 25, 25, 0.5);
+
+
+}
+ul{
+padding:0;
+margin:0;
+}
+
+ ul li {
+list-style: none;
+background-color: bisque;
+padding: 10px;
+width:15%;
+float:left;
+margin:5px;
+cursor:pointer;
+font-size:20px ;
+border-radius:6px ;
+box-shadow: 0 5px 0px  rgba( 0,0,0,0.5)  ,
+inset 1px 1px 8px rgba(203, 25, 25, 0.5); 
+ font-family: 'Share Tech Mono', monospace;
+}
+
+ul li:hover{
+font-weight: bolder;
+}
+ul li:active {
+    position: relative;
+    top:5px;
+    box-shadow:   inset 0px 1px 5px rgba(207, 115, 115, 0.5); 
+  
+
+}
+.sighture{
+    color:red;
+    font-size:0.75;
+    text-align: right;
+   
+    position:relative;
+    font-family: 'Satisfy', cursive;
+    z-index:-1;
+
+}
